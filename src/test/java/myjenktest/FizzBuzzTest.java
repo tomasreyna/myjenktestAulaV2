@@ -23,6 +23,7 @@ public class FizzBuzzTest {
 		Assertions.assertEquals(risultato, "1");
 		
 	}
+	
 	@DisplayName("Play FizzBuzz with number=3")
 	@Test
 	public void testFizz() {
