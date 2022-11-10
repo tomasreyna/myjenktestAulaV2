@@ -19,7 +19,7 @@ public class FizzBuzzTest {
 	public void testNumber() {
 		String risultato=fb.play(1);
 		//assertEquals(risultatoOttenuto, risultatoPianificato)
-		Assertions.assertEquals(risultato, "1" );
+		Assertions.assertEquals(risultato, "0" );
 		
 	}
 }
