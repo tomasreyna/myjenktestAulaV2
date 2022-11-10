@@ -20,7 +20,14 @@ public class FizzBuzzTest {
 	public void testNumber() {
 		String risultato=fb.play(1);
 		//assertEquals(risultatoOttenuto, risultatoPianificato)
-		Assertions.assertEquals(risultato, "1" );
+		Assertions.assertEquals(risultato, "200");
 		
 	}
+	@DisplayName("Play FizzBuzz with number=3")
+	@Test
+	public void testFizz() {
+		String risultato=fb.play(3);
+		Assertions.assertEquals(risultato,"Fizz");
+	}
+	
 }
